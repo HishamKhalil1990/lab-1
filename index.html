@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <title>
+                lab 1
+            </title>
+            <style>
+                #heading {
+                    background-color: red;
+                    color: black;
+                }
+                .lists {
+                    background-color: green;
+                    color: black;
+                }
+            </style>
+        </head>
+        <body>
+            <header>
+                <h1 id="heading">
+                    Class 1 Lab 
+                </h1>
+                <nav>
+                    <ul>
+                        <li class="lists">
+                            <a href="https://www.google.com/"> Google </a>
+                        </li>
+                        <li class="lists">
+                            <a href="https://github.com/"> GitHub </a>
+                        </li>
+                        <li class="lists">
+                            <a href="https://www.amazon.com/"> Amazon </a>
+                        </li>
+                    </ul>
+                </nav>
+            </header>
+            <main>
+                <p style="color:red;background-color:gray;">
+                    what is your name ?
+                </p>
+                <p style="color:green;background-color:blue;">
+                    where do you live ?
+                </p>
+                <p style="color:white;background-color:black;">
+                    what is your current job ?
+                </p>
+                <p style="color:yellow;background-color:orange;">
+                    which type of food do you prefer ?
+                </p>
+            </main>
+            <footer>
+                &copy; 2021
+            </footer>
+            <script>
+                let userName = prompt('what is your name ?');
+                let livingPlace = prompt('where do you live ?');
+                let currentJob = prompt('what is your current job ?');
+                let foodType = prompt('which type of food do you prefer ?');
+                alert('your name is ' + userName + ' and your living in ' + livingPlace + ' your current job is ' + currentJob + ' and you perfer ' + foodType);
+                console.log(userName);
+                console.log(livingPlace);
+                console.log(currentJob);
+                console.log(foodType);
+            </script>
+        </body>
+</html>
